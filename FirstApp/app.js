@@ -4,12 +4,15 @@
 angular.module('MyFirstApp', [])
 
     .controller('MyFirstController', function($scope){
-    $scope.name = "Owais";
+  
+    $scope.hello = function (){
+
+          return "Hello";
+    }
+    $scope.name="Owais";
+
+
     });
-
-
-
-
 
 
     
